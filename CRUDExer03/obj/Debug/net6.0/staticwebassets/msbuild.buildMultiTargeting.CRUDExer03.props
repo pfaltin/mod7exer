@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/CRUDExer03.props" />
+</Project>
