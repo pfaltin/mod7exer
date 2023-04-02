@@ -13,16 +13,16 @@ namespace CRUDExer03.Repositories
             List<Product> products = new List<Product>()
             {
                 new Product{ ProductId = 1, Name = "kanta", Description = "plasticna", Price = 11.22M },
-                new Product{ ProductId = 1, Name = "boca", Description = "plasticna, 2l", Price = 12.22M },
-                new Product{ ProductId = 1, Name = "sokna", Description = "tanka", Price = 2.22M },
-                new Product{ ProductId = 1, Name = "guma", Description = "za traktor, 345x37", Price = 122.72M },
-                new Product{ ProductId = 1, Name = "zavjesa", Description = "bijela 2x3m", Price = 6.12M },
-                new Product{ ProductId = 1, Name = "naocale", Description = "plasticne", Price = 12.23M },
-                new Product{ ProductId = 1, Name = "krpa", Description = "mikrofibra, 30x50cm", Price = 0.92M },
-                new Product{ ProductId = 1, Name = "hlace", Description = "za vinograd", Price = 22.22M },
-                new Product{ ProductId = 1, Name = "majica", Description = "kratki rukav, L velicina", Price = 8.2M },
-                new Product{ ProductId = 1, Name = "cipela", Description = "radna, 44", Price = 34.12M },
-                new Product{ ProductId = 1, Name = "grablje", Description = "metalne, sa drzaljom", Price = 42.2M }
+                new Product{ ProductId = 2, Name = "boca", Description = "plasticna, 2l", Price = 12.22M },
+                new Product{ ProductId = 3, Name = "sokna", Description = "tanka", Price = 2.22M },
+                new Product{ ProductId = 4, Name = "guma", Description = "za traktor, 345x37", Price = 122.72M },
+                new Product{ ProductId = 5, Name = "zavjesa", Description = "bijela 2x3m", Price = 6.12M },
+                new Product{ ProductId = 6, Name = "naocale", Description = "plasticne", Price = 12.23M },
+                new Product{ ProductId = 7, Name = "krpa", Description = "mikrofibra, 30x50cm", Price = 0.92M },
+                new Product{ ProductId = 8, Name = "hlace", Description = "za vinograd", Price = 22.22M },
+                new Product{ ProductId = 9, Name = "majica", Description = "kratki rukav, L velicina", Price = 8.2M },
+                new Product{ ProductId = 10, Name = "cipela", Description = "radna, 44", Price = 34.12M },
+                new Product{ ProductId = 11, Name = "grablje", Description = "metalne, sa drzaljom", Price = 42.2M }
 
             };
             _products = products;
