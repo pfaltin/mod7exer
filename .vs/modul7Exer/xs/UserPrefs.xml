@@ -1,42 +1,39 @@
 ﻿<Properties StartupConfiguration="{AA979407-1529-4497-A9D0-720D3ED91BEB}|Default">
-  <MonoDevelop.Ide.ItemProperties.CRUDExer03 PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CRUDExer03/Models/Customer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CRUDExer03/Controllers/CustomerController.cs">
     <Files>
-      <File FileName="CRUDExer03/Controllers/CustomerController.cs" Line="27" Column="10" />
-      <File FileName="CRUDExer03/Views/Customer/Index.cshtml" Line="33" Column="13" />
-      <File FileName="CRUDExer03/Views/Shared/_Layout.cshtml" Line="42" Column="14" />
-      <File FileName="CRUDExer03/Views/Customer/Create.cshtml" Line="17" Column="38" />
-      <File FileName="CRUDExer03/Models/Customer.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="CRUDExer03/Repositories/CustomerRepository.cs" Line="28" Column="31" NotebookId="1" />
+      <File FileName="CRUDExer03/Controllers/CustomerController.cs" Line="49" Column="36" />
+      <File FileName="CRUDExer03/Controllers/ProductController.cs" />
+      <File FileName="CRUDExer03/appsettings.json" />
+      <File FileName="CRUDExer03/Views/Home/Index.cshtml" />
+      <File FileName="CRUDExer03/Views/_ViewStart.cshtml" />
+      <File FileName="CRUDExer03/Views/_ViewImports.cshtml" />
+      <File FileName="CRUDExer03/Program.cs" Line="40" Column="1" />
+      <File FileName="CRUDExer03/appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="CRUDExer03/Models/Order.cs" NotebookId="1" />
+      <File FileName="CRUDExer03/Models/OrderItem.cs" NotebookId="1" />
+      <File FileName="CRUDExer03/Models/Product.cs" NotebookId="1" />
+      <File FileName="CRUDExer03/Models/Customer.cs" Line="16" Column="1" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="modul7Exer" expanded="True">
             <Node name="CRUDExer03" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Interfaces" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="Customer.cs" selected="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="CustomerController.cs" selected="True" />
               </Node>
-              <Node name="Repositories" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Customer" expanded="True" />
-                <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True">
-                  <Node name="_Layout.cshtml" expanded="True" />
-                </Node>
-              </Node>
+              <Node name="Models" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.CRUDExer03 PreferredExecutionTarget="/Applications/Safari.app" />
 </Properties>

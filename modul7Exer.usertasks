@@ -1,4 +1,4 @@
 <ListOfTaskListEntry>
-  <TaskListEntry file="" description="View-oreder" />
-  <TaskListEntry file="" />
+  <TaskListEntry file="" description="View-Order" />
+  <TaskListEntry file="" description="View -Product" />
 </ListOfTaskListEntry>

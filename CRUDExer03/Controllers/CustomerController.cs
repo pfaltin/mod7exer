@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CRUDExer03.Interfaces;
+using CRUDExer03.Models;
 using CRUDExer03.Repositories;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -14,9 +16,9 @@ namespace CRUDExer03.Controllers
         private CustomerRepository _customerRepository;
 
         // DI (eng.: Dependency Injection) - hrv.: Ubrizgavanje ovisnosti 
-        public CustomerController(CustomerRepository CustomerRepository)
+        public CustomerController(CustomerRepository customerRepository)
         {
-            _customerRepository = CustomerRepository;
+            _customerRepository = customerRepository;
         }
 
 
@@ -38,21 +40,21 @@ namespace CRUDExer03.Controllers
             return View();
         }
 
+
+
+
         // POST: Customer/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public IActionResult Create( Customer customer)
+        //public IActionResult Create([Bind("CustomerId,Name,Email,Phone, Address")] Customer customer)
         {
-            try
+            if (ModelState.IsValid)
             {
-                // TODO: Add insert logic here
-
-                return RedirectToAction(nameof(Index));
+                _customerRepository.AddCustomer(customer);
+                return RedirectToAction("Index");
             }
-            catch
-            {
-                return View();
-            }
+            return View();
         }
 
         // GET: Customer/Edit/5
